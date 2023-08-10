@@ -36,11 +36,6 @@ Follow these steps to run the project locally on your machine:
 
 5. **Open your web browser and visit [http://localhost:3000](http://localhost:3000) to see the application.**
 
-## Technologies Used
-
-- REACT
-- HTML/CSS
-
 ## API
 
 The project uses the "dummyjson.com" API for retrieving product data. Refer to the [DummyJSON API documentation for 'products'](https://dummyjson.com/docs/products) to guide your use of the API.
