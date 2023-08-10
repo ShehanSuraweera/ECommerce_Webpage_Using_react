@@ -7,7 +7,7 @@ import {sliderImages} from '../../utils/images';
 const Slider = () => {
   return (
     <div className = "hero-slider">
-      <div className='hero-slider-item'>
+      <div className='hero-slider-item image1'>
         <img src = {sliderImages[1]} alt = "" />
       </div>
     </div>

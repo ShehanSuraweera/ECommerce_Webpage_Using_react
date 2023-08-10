@@ -1,4 +1,5 @@
 @import "../../App.scss";
+
 .hero-slider{
     &-item{
         height: 280px;
@@ -9,3 +10,12 @@
         }
     }
 }
+
+
+ 
+ @media only screen and (max-width: 950px){ //some value
+    .image1{
+      display: none;
+    }
+ 
+ }
