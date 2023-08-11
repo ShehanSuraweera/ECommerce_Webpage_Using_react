@@ -6,7 +6,7 @@ import Slider from '../../components/Slider/Slider';
 
 const SearchPage = () => {
   const { data: searchData, status: searchStatus } = useSelector((state) => state.search);
-  const { data1 } = searchData;
+  //const { data1 } = searchData;
 
   return (
     <div className="home-page">

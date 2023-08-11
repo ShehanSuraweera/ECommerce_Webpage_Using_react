@@ -2,7 +2,7 @@ import React, {useEffect,useState} from 'react';
 import ProductList from '../../components/ProductList/ProductList';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchProductsByCategory } from '../../store/categorySlice';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import "./CategoryPage.scss";
 import Pagination from '../../components/Pagination/Pagination';
 

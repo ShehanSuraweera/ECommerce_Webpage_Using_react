@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import "./CartPage.scss";
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from "react-router-dom";
-import { removeFromCart, toggleCartQty, getCartTotal, clearCart, setCartTotal } from '../../store/cartSlice';
+import { removeFromCart, toggleCartQty, getCartTotal, clearCart } from '../../store/cartSlice';
 import { formatPrice } from "../../utils/helpers";
 import Pagination from '../../components/Pagination/Pagination';
 
@@ -12,7 +12,7 @@ const CartPage = () => {
 
   useEffect(() => {
     dispatch(getCartTotal());
-  }, [cartProducts]);
+  }, [dispatch,cartProducts]);
 
   const emptyCartMsg = <h4 className='text-red fw-6'>No items found!</h4>;
   const cartItemsPerPage = 5; // Number of cart items to display per page
@@ -21,10 +21,6 @@ const CartPage = () => {
   const startIndex = (currentPage - 1) * cartItemsPerPage;
   const endIndex = startIndex + cartItemsPerPage;
 
-  const handleQtyIncrease = (productId) => {
-    dispatch(toggleCartQty({ id: productId, type: "INC" }));
-    dispatch(getCartTotal()); // Update cart total after quantity change
-  };
 
   return (
     <div className="cart-page">
