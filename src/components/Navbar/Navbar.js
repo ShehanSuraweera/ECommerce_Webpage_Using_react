@@ -68,8 +68,6 @@ const Navbar = () => {
       dispatch(setStatus(STATUS.ERROR));
     }
   };
-
- 
   return (
     <nav className="navbar">
       <div className="navbar-content">
