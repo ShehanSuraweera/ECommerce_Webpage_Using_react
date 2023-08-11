@@ -2,11 +2,7 @@
 
 This is a single-page e-commerce website that showcases products fetched from the DummyJSON API. It allows users to browse products, add them to a shopping cart, calculate the total cost and search for specific products.
 
-## Explore My E-commerce Website
-
-Discover the world of online shopping on my e-commerce website! Experience the convenience of browsing and shopping for a variety of products, all in one place. 
-
-Visit the website: [Explore Now](https://shehansuraweera.github.io/ECommerce_Webpage_Using_react/)
+## Visit the website: [Explore Now](https://shehansuraweera.github.io/ECommerce_Webpage_Using_react/)
 
 ![websit Image 1](/src/assets/images/website%201.png)
 ![websit Image 2](/src/assets/images/website%202.png)
