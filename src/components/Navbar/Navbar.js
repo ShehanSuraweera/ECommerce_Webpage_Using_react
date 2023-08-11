@@ -134,8 +134,22 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
+               
             </ul>
-
+            <form className="navbar-search flex search2">
+              <input
+                type="text"
+                placeholder="Search here ..."
+                onChange={(e) => setkeyword(e.target.value)}
+              />
+              <button
+                type="button"
+                className="navbar-search-btn"
+                onClick={() => searchProduct(keyword)}
+              >
+                <i className="fas fa-search"></i>
+              </button>
+            </form>
             <button
               type="button"
               className="navbar-show-btn text-gold"

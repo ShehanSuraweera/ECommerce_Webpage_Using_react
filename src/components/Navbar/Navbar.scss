@@ -76,7 +76,11 @@
         padding: 14px 0;
         margin-top: 14px;
 
-        > .container{
+    .search2{
+        display: none;
+    }
+
+        .container{
             padding: 0 5px;
             justify-content:flex-end;
         }
@@ -169,11 +173,20 @@
         }
     }
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 675px){
         .navbar-top{
             .navbar-search{
                 display: none;
             }
         }
+        .navbar-bottom{
+        .search2{
+            display: inline-flex;
+            margin-right: 40px;
+            align-items: stretch;
+            padding: 4px 50px;
+            border-radius: 3px 0 0 3px;
+        }
+    }
     }
 }
